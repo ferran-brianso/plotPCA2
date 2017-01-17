@@ -1,0 +1,15 @@
+Package: plotPCA2
+Title: Principal component analysis and Plot 2 PC
+Version: 0.0.0.9000
+Authors@R: person("Ricardo", "Gonzalo", email = "ricardo.gonzalo@vhir.org", role = c("aut", "cre"))
+Description: Calculates de principal components of a dataset with prcomp
+    function and plot PC1 and PC2 using ggplot2 and ggrepel
+Depends:
+    R (>= 3.3.2)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2 (>= 2.2.0),
+    ggrepel (>= 0.6.5)
+RoxygenNote: 5.0.1
